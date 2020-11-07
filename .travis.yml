@@ -1,0 +1,17 @@
+language: python
+python:
+  - "2.7.18"
+  - "3.6.18"
+os: linux
+dist: bionic
+install:
+  - sudo apt-get update
+  - pip install -r requirements.txt
+cache: pip
+before_script:
+  - cd author_code\backdoor
+# command to run tests
+script:
+  - python iclr_mnist_backdoor.py  --backdoor_portion 0.3
+  - python iclr_mnist_backdoor.py --dpsgd True --noise_multiplier 0.5 --backdoor_portion 0.3
+  - echo "check"
