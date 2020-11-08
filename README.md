@@ -24,4 +24,24 @@ Authors original code - https://www.dropbox.com/sh/rt8qzii7wr07g6n/AAAbwokv2sfBe
   - Therefore, claims that the analysis can shed light on detecting various types of anomalies, including but not limited to outlier/novelty detection, backdoor detection, and noisy label detection.
 - DP noise is effective towards reducing the number of false negatives, and further improving the overall utility.
 
-**Note**: detailed reviews for each experimental cases in their respective folders.
+**Note 1**: detailed reviews for each experimental cases in their respective folders.
+
+**Note 2**: ***Most of these will be changed later - for now this will help us keep tabs on our progress!***
+
+![Tips for Publishing Research Code to follow](https://github.com/paperswithcode/releasing-research-code)
+
+#### ML Code Completeness Checklist
+The ML Code Completness Checklist consists of five items: 
+
+    Specification of dependencies
+    Training code
+    Evaluation code
+    Pre-trained models
+    README file including table of results accompanied by precise commands to run/produce those results
+
+
+![ML Code Completeness Checklist](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501)
+![Facebook's How the AI community can get serious about reproducibility](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
+![Main README FOrmating](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md)
+![Checklist](https://github.com/shaistha24/mlrc2020/blob/main/checklist.jpg)
+
